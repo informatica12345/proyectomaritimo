@@ -1,0 +1,50 @@
+h1{
+    background: rgb(55,134,111);
+    background: linear-gradient(90deg, rgba(55,134,111,1) 0%, rgba(0,0,0,1) 100%);
+    border-radius: 20px ;
+    font-family:'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 40px;
+    color: #ffffff;
+     border-style: solid;
+     border-color: #205a49;
+     padding: 20px;
+}
+body{
+    background: rgb(26,30,41);
+    background: linear-gradient(90deg, rgba(26,30,41,1) 0%, rgba(19,45,70,1) 35%, rgba(1,195,142,1) 100%);
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+}
+p, h2{
+    color: #fff;
+    text-align: justify;
+}
+
+
+*{
+    padding: 0%;
+    margin: 5px;
+}
+#HEADER{
+      margin-left: 180px;
+      margin-right: 180px;
+      width: auto;
+        
+}
+ul, ol{
+    list-style: none;
+}
+.NAV li a{
+    background-color: #006270;
+    COLOR: #fff;
+    text-decoration: none;
+    padding: 10px 30px;
+    display: block;
+}
+.NAV > li{
+    float: left;
+}
+.NAV li a:hover{
+    background-color: #03333a;
+}
